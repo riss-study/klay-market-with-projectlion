@@ -1,0 +1,62 @@
+{
+    "testAddress": "0xd7eEeCD987bF342701593321C25F482A1aaBB079",
+    "mainAddress": "0xf71724e1C48eaAAFb4F5F200ca2Dc4BB07Da4D33",
+    "abi": [
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "count",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "getBlockNumber",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_count",
+                    "type": "uint256"
+                }
+            ],
+            "name": "setCount",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ],
+    "abi_setCount": {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_count",
+                "type": "uint256"
+            }
+        ],
+        "name": "setCount",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+}
